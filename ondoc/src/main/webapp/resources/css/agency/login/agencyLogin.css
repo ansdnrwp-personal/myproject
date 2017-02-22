@@ -1,0 +1,43 @@
+/* 관리자 로그인 div */
+.login_con {
+	position:absolute;
+	top:45%;
+	left:50%;
+	width:1000px;
+	height:584px;
+	margin:-292px 0 0 -500px;
+	background: url('/resources/images/bg/bg_login_con.png') no-repeat 0 0;
+}
+
+/* 관리자 로그인 id,pw input */
+.login_con input {
+	width:346px;
+	height:60px;
+	border-bottom:2px solid #9fb9d8;
+	font-size:20px;
+	font-weight:600;
+}
+.login_con input.bg_id {
+	background:url('/images/adm/bg_input_id.png') no-repeat;
+}
+.login_con .inner {
+	margin:280px 0 0 117px;
+}
+
+.login_con .id_txt .input_id {
+	padding-left:53px;
+	width:344px;
+	background:url('/resources/images/pictor/bg_input_fid.png') no-repeat;
+}
+
+.login_con .pw_txt .input_pw {
+	padding-left:53px;
+	width:344px;
+	margin-top:50px;
+	background:url('/resources/images/pictor/bg_input_fpw.png') no-repeat;
+}
+
+/* 관리자 로그인 버튼 */
+.login_con .btn_login{
+	margin-top:60px;
+}
