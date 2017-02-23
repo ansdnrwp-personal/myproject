@@ -15,9 +15,14 @@
 <body>
 	<div class="login_con">
 		<div class="inner">
-			<p class="id_txt"><input type="text"     name="userid" class="input_id" placeholder="ID" value="${id }"/></p>
-			<p class="pw_txt"><input type="password" name="passwd" class="input_pw" placeholder="Password" /></p>
-			<p class="btn_login"><a href="#"><img src="/resources/images/btn/btn_m_login.png" alt="로그인" id="btn_login"/></a></p>
+			<form id="frm_login" method="post">
+				<p class="id_txt"><input type="text"     name="userid" class="input_id" placeholder="ID" /></p>
+				<p class="pw_txt"><input type="password" name="passwd" class="input_pw" placeholder="Password" /></p>
+				<p class="id_txt"><input type="text"     name="userid" class="input_id" placeholder="ID" /></p>
+				<p class="pw_txt"><input type="password" name="passwd" class="input_pw" placeholder="Password" /></p>
+				<p class="btn_login"><a href="#"><img src="/resources/images/btn/btn_m_login.png" alt="로그인" id="btn_login"/></a></p>
+				
+			</form>
 		</div>
 	</div>
 </body>
