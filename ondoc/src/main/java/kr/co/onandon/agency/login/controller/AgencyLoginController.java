@@ -40,6 +40,7 @@ public class AgencyLoginController {
 	@RequestMapping(value = "/agencyLogin.do", method = RequestMethod.GET)
 	public ModelAndView agencyLogin(Locale locale, Model model) throws Exception {
 		ModelAndView mav = new ModelAndView();
+		System.out.println("깃허브 연동성공");
 		mav.setViewName("agency/login/agencyLogin");
 		return mav;
 	}
