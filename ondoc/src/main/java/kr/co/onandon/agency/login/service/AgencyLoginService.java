@@ -4,5 +4,4 @@ import java.util.HashMap;
 
 public interface AgencyLoginService {
 	
-	public String getList(HashMap<String, Object> paramMp) throws Exception;
 }

@@ -5,21 +5,17 @@
  
 <tiles-definitions>
 
-    <definition name="agency" template="/WEB-INF/jsp/agency/layout/agencyLayout.jsp">
-        <put-attribute name="header" value="/WEB-INF/jsp/agency/layout/agencyHeader.jsp"/>
-        <put-attribute name="footer" value="/WEB-INF/jsp/agency/layout/agencyLeft.jsp"/>
+    <definition name="portal" template="/WEB-INF/jsp/portal/layout/portalLayout.jsp">
+        <put-attribute name="header" value="/WEB-INF/jsp/portal/layout/portalHeader.jsp"/>
+        <put-attribute name="top" value="/WEB-INF/jsp/portal/layout/portalTop.jsp"/>
+        <put-attribute name="left" value="/WEB-INF/jsp/portal/layout/portalLeft.jsp"/>
         <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/jsp/portal/layout/portalFooter.jsp"/>
     </definition>
     
-    <definition name="agency/login/agencyLogin" template="/WEB-INF/jsp/agency/login/agencyLogin.jsp">
-    </definition>
     
-    <definition name="agency/main/agencyMain" extends="agency">
-        <put-attribute name="body" value="/WEB-INF/jsp/agency/main/agencyMain.jsp"/>
-    </definition>
-    
-    <definition name="agency/*/*" extends="agency">
-        <put-attribute name="body" value="/WEB-INF/jsp/agency/{2}/{3}.jsp"/>
+    <definition name="portal/*/*" extends="portal">
+        <put-attribute name="body" value="/WEB-INF/jsp/portal/{1}/{2}.jsp"/>
     </definition>
     
     

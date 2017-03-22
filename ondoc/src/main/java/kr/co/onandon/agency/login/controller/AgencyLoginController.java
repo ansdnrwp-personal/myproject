@@ -90,7 +90,6 @@ public class AgencyLoginController {
 		HashMap<String, Object> paramMp = new HashMap<String, Object>();
 		paramMp.put("fcltcd", "1");
 		
-		model.addAttribute("fcltnm", agencyLoginService.getList(paramMp) );
 		
 		return "agency/main/agencyMain";
 	}

@@ -16,9 +16,9 @@
 	
 	<bean id="dataSourceSpied" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
-		<property name="url" value="jdbc:oracle:thin:@192.168.10.90:1521:onandon" />
-		<property name="username" value="ONONDOC" />
-		<property name="password" value="dhsdosdhs#!2" /> 
+		<property name="url" value="jdbc:oracle:thin:@192.168.10.208:1521:xe" />
+		<property name="username" value="SYSIDMS" />
+		<property name="password" value="dhsdosdhs123" /> 
     </bean>
      
     <bean id="datasource_oracle" class="net.sf.log4jdbc.Log4jdbcProxyDataSource">
