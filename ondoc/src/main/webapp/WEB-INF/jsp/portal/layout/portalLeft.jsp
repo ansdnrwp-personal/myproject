@@ -9,6 +9,9 @@
 <body>
 <div id="div_leftArea1">
 	<div id="div_login">
+		<h2>회원 로그인</h2>
+		<input type="text"     id="input_loginId" placeholder="ID를 입력하세요."/>
+		<input type="password" id="input_loginPw" placeholder="PW를 입력하세요."/>
 	</div>
 </div>
 <div id="div_leftArea2">
@@ -21,7 +24,6 @@
 		<li><span>통합문서 교육신청</span></li>
 		<li><span>결제관리</span></li>
 		<li><span>도움서비스</span></li>
-		<li></li>
 	</ul>
 </div>
 </body>
